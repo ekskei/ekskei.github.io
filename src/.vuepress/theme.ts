@@ -45,10 +45,10 @@ export default hopeTheme({
 
       displayFooter: false,
 
-      blog: {
-        description: "一个软件开发者",
-        intro: "/intro.html",
-      },
+      // blog: {
+      //   description: "一个软件开发者",
+      //   intro: "/intro.html",
+      // },
 
       // page meta
       metaLocales: {
@@ -67,10 +67,10 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      blog: {
-        description: "A programmer",
-        intro: "intro.html",
-      },
+      // blog: {
+      //   description: "A programmer",
+      //   intro: "intro.html",
+      // },
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
@@ -80,7 +80,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/posts/encrypt.html": ["666666"],
+      "/articles/encrypt.html": ["666666"],
     },
   },
 

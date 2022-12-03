@@ -1,5 +1,5 @@
 ---
-title: Markdown 展示
+title: Markdown 示例
 icon: markdown
 date: 2020-01-01
 author: 
@@ -11,7 +11,7 @@ tag:
   - Markdown
 ---
 
-# Markdown 展示
+# Markdown 示例
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
 
