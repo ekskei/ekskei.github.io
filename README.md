@@ -1,4 +1,4 @@
-# My GitHub Pages
+# My Pages
 
 https://codevk.com
 
