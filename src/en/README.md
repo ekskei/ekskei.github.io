@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: CODEVK
+title: Home
 heroImage: /logo.svg
 heroText: CODEVK
 tagline: Learn to Share, Share to Learn
