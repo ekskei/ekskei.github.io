@@ -80,7 +80,6 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/articles/encrypt.html": ["666666"],
     },
   },
 

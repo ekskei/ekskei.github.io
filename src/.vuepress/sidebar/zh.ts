@@ -4,10 +4,11 @@ export const zhSidebar = sidebar({
   "/": [
     "",
     {
-      text: "文章",
+      text: "所有文章",
       icon: "note",
-      prefix: "articles/",
+      prefix: "docs/",
       children: "structure",
+      collapsible: true,
     },
     "slides",
     "about",
