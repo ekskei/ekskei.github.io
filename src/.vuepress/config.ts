@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
   base: "/",
@@ -8,12 +9,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "CODEVK",
-      description: "Code wiki",
+      description: "code wiki",
     },
     "/en/": {
       lang: "en-US",
       title: "CODEVK",
-      description: "Code wiki",
+      description: "code wiki",
     },
   },
 
@@ -22,5 +23,7 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   plugins: [
+    searchProPlugin({
+    }),
   ],
 });

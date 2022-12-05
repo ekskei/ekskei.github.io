@@ -24,8 +24,8 @@ projects:
     link: slides
 
   - icon: article
-    name: Makedown
-    desc: Makedown 示例
+    name: Markdown
+    desc: Markdown 示例
     link: markdown
 
 footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
