@@ -3,6 +3,8 @@ title: 幻灯片页
 icon: slides
 layout: Slide
 article: true
+category:
+  - 使用指南
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->
@@ -75,7 +77,7 @@ article: true
 
 标题默认会自动转换为大写。
 
-这是一个有着 **粗体**, _斜体_, ~~删除线~~ 文字并包含 [一个链接](https://mrhope.site) 的段落，并且它会自动换行。所以你无需担心它的长度。
+这是一个有着 **粗体**, _斜体_, ~~删除线~~ 文字并包含 [一个链接](https://codevk.com) 的段落，并且它会自动换行。所以你无需担心它的长度。
 
 --
 
@@ -326,8 +328,6 @@ $$
 
 ## 渐变
 
-<!-- .element: class="r-fit-text" -->
-
 Transition 可以通过配置中的 `transition` 选项全局设置，也可以通过在特定幻灯片添加 `data-transition` 属性局部设置.
 
 可能的值:
@@ -348,8 +348,6 @@ Transition 可以通过配置中的 `transition` 选项全局设置，也可以�
 
 ## 渐变
 
-<!-- .element: class="r-fit-text" -->
-
 ### 过渡动画
 
 你可以在相邻的幻灯片上添加 `data-auto-animate` 使相同的 HTML 元素产生过渡动画效果。
@@ -367,8 +365,6 @@ Transition 可以通过配置中的 `transition` 选项全局设置，也可以�
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
 ## 功能
-
-<!-- .element: class="r-fit-text" -->
 
 ### 代码
 
@@ -389,8 +385,6 @@ c(3);
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
-
 ### 预览模式
 
 按下 `Esc` 或 `O` 即可在幻灯片获得焦点时进入预览模式。
@@ -400,8 +394,6 @@ c(3);
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
 ## 功能
-
-<!-- .element: class="r-fit-text" -->
 
 ### 全屏模式
 
@@ -413,8 +405,6 @@ c(3);
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
-
 ### 缩放
 
 按下 `alt` (Linux 上使用 `ctrl`) 的同时点击幻灯片的任何元素，即可以向此元素进行放大。
@@ -422,8 +412,6 @@ c(3);
 再次点击即可缩小。
 
 ---
-
-<!-- .element: class="r-fit-text" -->
 
 ## 结束
 
