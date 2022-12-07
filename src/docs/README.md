@@ -2,7 +2,7 @@
 home: false
 layout: Blog
 icon: edit
-title: 文章列表
+title: 文章
 index: false
 article: false
 

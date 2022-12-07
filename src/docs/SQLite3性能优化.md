@@ -5,6 +5,8 @@ category:
   - 数据库
 tag:
   - SQLite
+sticky: true
+star: true
 ---
 
 # SQLite3性能优化

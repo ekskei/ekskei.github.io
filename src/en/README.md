@@ -7,6 +7,7 @@ heroImage: /logo.svg
 heroText: CODEVK
 tagline: Learn to Share, Share to Learn
 heroFullScreen: true
+bgImage: /assets/Antenna.jpg
 projects:
   - icon: project
     name: VuePress

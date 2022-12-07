@@ -2,7 +2,7 @@
 title: 幻灯片页
 icon: slides
 layout: Slide
-article: false
+article: true
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->
@@ -19,7 +19,7 @@ article: false
 
 <!-- .element: class="r-fit-text" -->
 
-> 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页
+> 请滚动鼠标滚轮进入下一页
 
 ---
 

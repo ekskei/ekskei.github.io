@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://codevk.com",
 
   author: {
-    name: "EksKei",
+    name: "CODEVK",
     url: "https://codevk.com",
   },
 
@@ -41,14 +41,14 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "CODEVK",
+      footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>',
 
-      displayFooter: false,
+      displayFooter: true,
 
-      // blog: {
-      //   description: "一个软件开发者",
-      //   intro: "/intro.html",
-      // },
+      blog: {
+        description: "一个软件开发者",
+        intro: "about",
+      },
 
       // page meta
       metaLocales: {
@@ -63,14 +63,13 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "CODEVK",
+      footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>',
 
       displayFooter: true,
 
-      // blog: {
-      //   description: "A programmer",
-      //   intro: "intro.html",
-      // },
+      blog: {
+        description: "A programmer"
+      },
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
@@ -197,25 +196,6 @@ export default hopeTheme({
           },
         ],
         shortcuts: [
-          {
-            name: "Demo",
-            short_name: "Demo",
-            url: "/demo/",
-            icons: [
-              {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-          },
         ],
       },
     },
