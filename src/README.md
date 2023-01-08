@@ -20,7 +20,7 @@ projects:
     link: https://weibo.com/xkvip
 
   - icon: link
-    name: test
+    name: Test
     desc: 
     link: http://ekskei.codevk.com
 
