@@ -11,11 +11,6 @@ export default defineUserConfig({
       title: "CODEVK",
       description: "code wiki",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "CODEVK",
-      description: "code wiki",
-    },
   },
 
   theme,

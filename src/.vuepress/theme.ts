@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://codevk.com",
@@ -17,8 +17,6 @@ export default hopeTheme({
   repo: "ekskei/ekskei.github.io",
 
   docsDir: "src",
-
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
     medias: {
@@ -55,37 +53,9 @@ export default hopeTheme({
         editLink: "在 GitHub 上编辑此页",
       },
     },
-
-    "/en/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>',
-
-      displayFooter: true,
-
-      blog: {
-        description: "A programmer"
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
   },
-
-  encrypt: {
-    config: {
-    },
-  },
-
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
+    blog: true,
 
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
@@ -99,18 +69,6 @@ export default hopeTheme({
       repoId: "MDEwOlJlcG9zaXRvcnkzMzcyOTc3Ng==",
       category: "Announcements",
       categoryId: "DIC_kwDOAgKs8M4CS4A2",
-
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
-
-      /**
-       * Using Waline
-       */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     // Disable features you don’t want here
@@ -122,11 +80,11 @@ export default hopeTheme({
       container: true,
       demo: true,
       echarts: true,
+      figure: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: true,
-      imageTitle: true,
-      imageSize: true,
+      imgLazyload: true,
+      imgSize: true,
       include: true,
       katex: true,
       mark: true,
@@ -155,49 +113,6 @@ export default hopeTheme({
       tabs: true,
       vPre: true,
       vuePlayground: true,
-    },
-
-    pwa: {
-      favicon: "/favicon.ico",
-      cacheHTML: true,
-      cachePic: true,
-      appendBase: true,
-      apple: {
-        icon: "/assets/icon/apple-icon-152.png",
-        statusBarColor: "black",
-      },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
-      manifest: {
-        icons: [
-          {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-        ],
-        shortcuts: [
-        ],
-      },
     },
   },
 });

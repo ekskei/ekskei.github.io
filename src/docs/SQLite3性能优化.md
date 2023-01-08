@@ -5,7 +5,7 @@ category:
   - 数据库
 tag:
   - SQLite
-sticky: true
+sticky: false
 star: true
 ---
 

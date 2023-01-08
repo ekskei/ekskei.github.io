@@ -1,11 +1,11 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.svg
 heroText: CODEVK
-heroFullScreen: false
+heroFullScreen: true
 bgImage: /assets/Antenna.jpg
 tagline: Learn to Share, Share to Learn
 projects:
@@ -19,15 +19,10 @@ projects:
     desc: 
     link: https://weibo.com/xkvip
 
-  - icon: slides
-    name: 幻灯片
+  - icon: link
+    name: test
     desc: 
-    link: slides
-
-  - icon: article
-    name: Markdown
-    desc: Markdown 示例
-    link: markdown
+    link: http://ekskei.codevk.com
 
 footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
 ---

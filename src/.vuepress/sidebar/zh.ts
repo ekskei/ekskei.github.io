@@ -10,7 +10,6 @@ export const zhSidebar = sidebar({
       children: "structure",
       collapsible: true,
     },
-    "slides",
     "about",
   ],
 });

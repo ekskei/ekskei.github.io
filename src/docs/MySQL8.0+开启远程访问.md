@@ -6,6 +6,7 @@ category:
 tag:
   - MySQL
 star: true
+sticky: true
 ---
 
 # MySQL 8.0+ 开启远程访问
