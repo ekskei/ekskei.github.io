@@ -19,10 +19,5 @@ projects:
     desc: 
     link: https://weibo.com/xkvip
 
-  - icon: link
-    name: Test
-    desc: 
-    link: http://ekskei.codevk.com
-
 footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
 ---
