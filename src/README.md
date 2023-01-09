@@ -5,7 +5,7 @@ icon: home
 title: 主页
 heroImage: /logo.svg
 heroText: CODEVK
-heroFullScreen: true
+heroFullScreen: false
 bgImage: /assets/Antenna.jpg
 tagline: Learn to Share, Share to Learn
 projects:
