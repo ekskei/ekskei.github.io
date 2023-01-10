@@ -2,7 +2,7 @@
 title: git add加不同参数的区别
 icon: edit
 author:
-  name: ekskei, 
+  name: ekskei
   url: https://github.com/ekskei
 date: 2022-12-06
 category:

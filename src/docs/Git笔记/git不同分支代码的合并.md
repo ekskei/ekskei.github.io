@@ -2,7 +2,7 @@
 title: git不同分支代码的合并
 icon: edit
 author:
-  name: ekskei, 
+  name: ekskei
   url: https://github.com/ekskei
 date: 2022-12-06
 category:

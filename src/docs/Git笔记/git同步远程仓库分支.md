@@ -2,7 +2,7 @@
 title: git同步远程仓库分支
 icon: edit
 author:
-  name: ekskei, 
+  name: ekskei
   url: https://github.com/ekskei
 date: 2022-12-06
 category:
