@@ -14,10 +14,5 @@ projects:
     desc: Vue 驱动的静态网站生成器
     link: https://v2.vuepress.vuejs.org/zh/
 
-  - icon: link
-    name: 微博
-    desc: 
-    link: https://weibo.com/xkvip
-
-footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
+footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://theme-hope.vuejs.press/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
 ---

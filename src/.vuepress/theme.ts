@@ -39,7 +39,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://vuepress-theme-hope.github.io/v2/zh/" rel="noopener noreferrer" target="_blank">Hope</a>',
+      footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://theme-hope.vuejs.press/zh/" rel="noopener noreferrer" target="_blank">Hope</a>',
 
       displayFooter: true,
 
