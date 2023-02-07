@@ -34,7 +34,7 @@ import{_ as e,V as i,W as n,Z as s}from"./framework-522cfab5.js";const d={},t=s(
 
     auto end = std::chrono::steady_clock::now();
     auto elapsed = std::chrono::duration_cast&lt;std::chrono::milliseconds&gt;(end - begin).count();
-	printf(&quot;test1执行时间: %ld ms\\n&quot;, elapsed);
+    printf(&quot;test1执行时间: %ld ms\\n&quot;, elapsed);
     sqlite3_close(db);
 }
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="使用执行准备" tabindex="-1"><a class="header-anchor" href="#使用执行准备" aria-hidden="true">#</a> 使用执行准备</h2><p>执行准备相当于将 SQL 语句提前编译，省去每次执行 SQL 语句时候的语法检查等操作，可以极大优化 SQL 语句的执行效率。</p><div class="language-C++ line-numbers-mode" data-ext="C++"><pre class="language-C++"><code>void test2()
