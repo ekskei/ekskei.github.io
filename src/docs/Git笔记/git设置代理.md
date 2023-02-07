@@ -18,12 +18,15 @@ tag:
 在网上查了一下，发现 git 默认是不走代理的，需要自己手动设置。方法如下：
 
 ## 设置代理
+
 这里使用的是 socks5 代理， PORT 是代理的端口号，需根据实际情况替换。我只针对 github 进行了设置，如果还有其他网站需要走代理，可以按照此方法进行设置。
-```
+
+```shell
 git config --global http.https://github.com.proxy socks5://127.0.0.1:PORT
 ```
 
 ## 取消代理
-```
+
+```shell
 git config --global --unset http.https://github.com.proxy
 ```
