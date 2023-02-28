@@ -1,0 +1,12 @@
+import{_ as a,V as e,W as n,Z as s}from"./framework-4b3cc28c.js";const i={},d=s(`<h1 id="git同步远程仓库分支" tabindex="-1"><a class="header-anchor" href="#git同步远程仓库分支" aria-hidden="true">#</a> git同步远程仓库分支</h1><h2 id="本地有新分支-远程没有" tabindex="-1"><a class="header-anchor" href="#本地有新分支-远程没有" aria-hidden="true">#</a> 本地有新分支，远程没有</h2><p>在本地新分支中进行以下命令推送即可：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> push
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="远程有新分支-本地没有" tabindex="-1"><a class="header-anchor" href="#远程有新分支-本地没有" aria-hidden="true">#</a> 远程有新分支，本地没有</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 将某个远程主机的更新，全部取回本地</span>
+<span class="token function">git</span> fetch
+
+<span class="token comment"># 查看所有分支</span>
+<span class="token function">git</span> branch <span class="token parameter variable">-a</span>
+
+<span class="token comment"># 创建并切换分支</span>
+<span class="token function">git</span> checkout <span class="token parameter variable">-b</span> 远程分支名 origin/远程分支名
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="本地删除了分支-远程也想删除" tabindex="-1"><a class="header-anchor" href="#本地删除了分支-远程也想删除" aria-hidden="true">#</a> 本地删除了分支，远程也想删除</h2><p>到gitlab/github/gitee进行删除，或者：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> push origin <span class="token parameter variable">-d</span> 分支名
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="远程删除了分支-本地也想删除" tabindex="-1"><a class="header-anchor" href="#远程删除了分支-本地也想删除" aria-hidden="true">#</a> 远程删除了分支，本地也想删除</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> remote prune origin
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,11),r=[d];function t(c,l){return e(),n("div",null,r)}const h=a(i,[["render",t],["__file","git同步远程仓库分支.html.vue"]]);export{h as default};
