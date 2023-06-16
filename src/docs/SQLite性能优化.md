@@ -9,7 +9,7 @@ sticky: false
 star: true
 ---
 
-# SQLite3性能优化
+# SQLite性能优化
 
 ## 场景描述
 
