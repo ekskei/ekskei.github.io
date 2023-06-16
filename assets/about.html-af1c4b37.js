@@ -1,1 +1,0 @@
-import{_ as t,W as a,X as o,Y as e,Z as s}from"./framework-b32ce0b5.js";const c={},n=e("h1",{id:"关于",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#关于","aria-hidden":"true"},"#"),s(" 关于")],-1),r=e("p",null,"喵~",-1),_=[n,r];function d(i,l){return a(),o("div",null,_)}const u=t(c,[["render",d],["__file","about.html.vue"]]);export{u as default};
