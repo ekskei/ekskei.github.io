@@ -19,5 +19,10 @@ projects:
     desc: 此网站源码
     link: https://github.com/ekskei/ekskei.github.io
 
+  - icon: link
+    name: ChatGPT
+    desc: poe.com/ChatGPT
+    link: https://poe.com/ChatGPT
+
 footer: 'Powered by <a href="https://v2.vuepress.vuejs.org/zh/" rel="noopener noreferrer" target="_blank">VuePress</a> & <a href="https://theme-hope.vuejs.press/zh/" rel="noopener noreferrer" target="_blank">Hope</a>'
 ---
