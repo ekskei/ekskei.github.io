@@ -1,11 +1,11 @@
+import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
-import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
 export default defineUserConfig({
   base: "/",
+  bundler: viteBundler(),
 
   locales: {
     "/": {
@@ -20,13 +20,8 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   plugins: [
-    searchProPlugin({
-    }),
     googleAnalyticsPlugin({
-      id: 'G-1E8QEYT4W6',
-    }),
-    sitemapPlugin({
-      hostname: 'https://codevk.com'
+      id: "G-1E8QEYT4W6",
     }),
   ],
 });

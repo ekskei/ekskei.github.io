@@ -1,6 +1,6 @@
 ---
 home: false
-layout: BlogHome
+layout: Blog
 icon: edit
 title: 文章
 index: false
